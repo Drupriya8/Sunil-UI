@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.2s ease-in-out;
+}
+
+#container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #00b09b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#container .profile {
+    height: 350px;
+    width: 300px;
+    background-color: #367E18;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#container .profile img {
+    height: 120px;
+    border-radius: 60px;
+}
+
+#container .profile img:hover {
+    transform: scale(120%);
+    box-shadow: -1px 6px 26px 7px rgba(0, 0, 0, 0.67);
+}
+
+#container .profile .social_links {
+    list-style: none;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#container .profile h1 {
+    text-transform: uppercase;
+    color: #F57328;
+}
+
+#container .profile h1:hover {
+    transform: scale(120%);
+    color: black;
+}
+
+#container .profile .social_links li i {
+    font-size: 25px;
+    color: #F57328;
+}
+
+#container .profile .social_links li i:hover {
+    font-size: 30px;
+    color: black;
+}
+
+#container .profile .btn {
+    width: 80%;
+    padding: 5px;
+    border: none;
+    background-color: #CC3636;
+    color: #F57328;
+    font-size: 18px;
+    border-radius: 25px;
+}
+
+#container .profile .btn:hover {
+    background-color: aqua;
+    color: black;
+    box-shadow: -1px 6px 26px 7px rgba(0, 0, 0, 0.67);
+}
